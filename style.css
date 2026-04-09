@@ -1,20 +1,110 @@
-h1 {
-    background-color: rgb(255, 219, 224);
-    color: rgb(255, 255, 255);
-    margin: auto;
-    margin-bottom: 30px;
+#überschrift {
+    color: rgb(189, 135, 157);
+    font-size: 400%;
+    font-family: WindSong, cursive;
 }
-
-
 
 body {
-    background-color: rgb(255, 215, 221);
+    background-color: rgb(255, 219, 224);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+table {
+    text-align: center;
+    table-layout: fixed;
+    width: 400px;
+    cursor: url("rose.png") ,auto;
+}
+
+td:hover {
+    background-color: rgb(196, 128, 128);
+}
+
+tbody {
+    background-color: rgba(243, 166, 177, 0.692);
+}
+
+#buttonClick {
+    display: flex;
+    gap: 76px;
+    font-family: windsong ,cursive;
+    font-size: xx-large;
+    color: rgb(189, 135, 157);    
+    background-color: rgba(243, 166, 183, 0.397);
+    width: fit-content;
+}
+#neuerMonat {
+    background-color: rgb(189, 135, 157);
+    border-color: rgb(245, 193, 225);
+    color: white;
+    background-image: url("pfeil.png");
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 160px;
+}
+
+#alterMonat {
+    background-color: rgb(189, 135, 157);
+    border-color: rgb(245, 193, 225);
+    color: white;
+    background-image: url("pfeil.png");
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 160px;
+}
+
+#wochenTage {
+    color: rgb(189, 138, 159);
+    background-color: rgba(189, 135, 157, 0.425);
+    font-family: windsong;
+    font-size: larger;
+    text-align: center;
+    table-layout: fixed;
+    font-weight: lighter;
 }
 
 
-
-button {
-    background-color: rgb(189, 138, 159);
+tr {
     color: white;
-    border-color: rgb(245, 193, 225);
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+#vorMonat {
+    color: rgba(169, 169, 169, 0.39);
+    font-weight: normal;
+    background-color: rgba(189, 135, 157, 0.164);
+}
+
+#neuMonat {
+    color: rgba(169, 169, 169, 0.39);
+    font-weight: normal;
+    background-color: rgba(189, 135, 157, 0.164);
+}
+
+#sa {
+    color: rgba(0, 162, 255, 0.342);
+}
+
+#so {
+    color: rgba(255, 0, 0, 0.432);
+}
+
+li {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(189, 135, 157, 0.137);
+    width:max-content;
+}
+
+#heute {
+    color: rgb(245, 51, 187);
+    background-color: rgba(253, 94, 169, 0.521);
+}
+
+
+footer {
+    font-size: xx-small;
 }

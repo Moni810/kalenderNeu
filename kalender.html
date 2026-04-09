@@ -1,21 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalender</title>
+    <link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Kalender 2026</h1>
-        <main class="kalenderGerüst">
-            <div>
-                <button id="neuerMonat">weiter</button>
-            </div>
-            <div>
-                <button id="alterMonat">zurück</button>
-            </div>
-        </main>
-    <script src="kalender.js"></script>
-</body>
+    <h1 id="überschrift">Kalender 2026</h1>
+        <body>
+                <table>
+                         <thead> 
+                            <p> 
+                                <div id="buttonClick">
+                                    <button id="alterMonat"></button>
+                                    <h2 id="überschrift2">April</h2>
+                                    <button id="neuerMonat"></button>
+                                </div>
+                            </p>
+                            <tr id="wochenTage">
+                                <th> Mo </th>
+                                <th> Di </th>
+                                <th> Mi </th>
+                                <th> Do </th>
+                                <th> Fr </th>
+                                <th> Sa </th>
+                                <th> So </th>
+                            </tr>
+                        </thead> 
+                        <tbody> 
+                            <tr>
+                                <td id="vorMonat">30</td>
+                                <td id="vorMonat">31</td>    
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td id="sa">4</td>
+                                <td id="so">5</td>
+                            </tr>
+                                
+                            <tr>
+                                <td>6</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td id="heute">9</td>
+                                <td>10</td>
+                                <td id="sa">11</td>
+                                <td id="so">12</td>
+                            </tr>
+
+                            <tr>
+                                <td>13</td>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td id="sa">18</td>
+                                <td id="so">19</td>
+                            </tr>
+
+                            <tr>
+                                <td>20</td>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td id="sa">25</td>
+                                <td id="so">26</td>
+                            </tr>
+
+                            <tr>
+                                <td>27</td>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td id= "neuMonat">1</td>
+                                <td id= "neuMonat">2</td>
+                                <td id= "neuMonat">3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        <li>
+                            10. April 1912: Die Titanic sticht 
+                            von Southampton aus in See.
+                        </li>
+
+                        <li>
+                            15. April 1912: Die Titanic kollidiert 
+                            mit einem Eisberg und sinkt.
+                        </li>
+
+                        <li>
+                            21. April 1926: Geburt von Königin 
+                            Elisabeth II. in London.
+                        </li>
+
+                        <li>
+                             27. April 1940: Heinrich Himmler ordnet
+                            den Bau des Konzentrationslagers 
+                            Auschwitz an.
+                        </li>
+
+                        <li>
+                            17. April 1970: Die Landekapsel der 
+                            havarierten Mission Apollo 13 wasserte 
+                            sicher im Pazifik.
+                        </li>
+                    </p>
+                    </div>
+                    <footer> Icons by
+                        <a href="https://icons8.de/" target="_blank">
+                        icons8
+                        </a>
+                    </footer>
+        <script src="kalender.js"></script>
+    </body>
 </html>

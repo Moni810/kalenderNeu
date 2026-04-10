@@ -32,27 +32,30 @@ tbody {
     font-size: xx-large;
     color: rgb(189, 135, 157);    
     background-color: rgba(243, 166, 183, 0.397);
-    width: fit-content;
+    width: fit-content; 
 }
+
 #neuerMonat {
     background-color: rgb(189, 135, 157);
-    border-color: rgb(245, 193, 225);
-    color: white;
+    border-color: rgb(189, 135, 157);
     background-image: url("pfeil.png");
+    width: 50px;
     background-repeat: no-repeat;
-    width: 55px;
-    height: 160px;
+    background-position: center;
+    background-size: contain;
 }
 
 #alterMonat {
     background-color: rgb(189, 135, 157);
-    border-color: rgb(245, 193, 225);
-    color: white;
+    border-color: rgb(189, 135, 157);
     background-image: url("pfeil.png");
+    width: 50px;
     background-repeat: no-repeat;
-    width: 55px;
-    height: 160px;
+    background-position: center;
+    background-size: contain;
+    transform: rotate(180deg);
 }
+
 
 #wochenTage {
     color: rgb(189, 138, 159);
@@ -69,7 +72,7 @@ tr {
     color: white;
     font-size: xx-large;
     font-weight: bold;
-    
+    font-family: windsong;
 }
 
 #vorMonat {
@@ -93,10 +96,12 @@ tr {
 }
 
 li {
-    color: white;
+    color: rgb(189, 135, 157);
     font-weight: bold;
     background-color: rgba(189, 135, 157, 0.137);
     width:max-content;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #heute {
@@ -107,4 +112,5 @@ li {
 
 footer {
     font-size: xx-small;
+    color: rgb(189, 135, 157);
 }

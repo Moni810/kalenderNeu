@@ -7,15 +7,15 @@
     <link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-    <h1 id="überschrift">Kalender 2026</h1>
+    <h1 id="überschrift">Kalender 99.99.9999</h1>
         <body>
                 <table>
                          <thead> 
                             <p> 
                                 <div id="buttonClick">
-                                    <button id="alterMonat"></button>
-                                    <h2 id="überschrift2">April</h2>
-                                    <button id="neuerMonat"></button>
+                                    <button id="alterMonat" onclick="switchMonth(-1)"></button>
+                                    <h2 id="überschrift2">xyz</h2>
+                                    <button id="neuerMonat" onclick="switchMonth(1)"></button>
                                 </div>
                             </p>
                             <tr id="wochenTage">
@@ -27,9 +27,11 @@
                                 <th> Sa </th>
                                 <th> So </th>
                             </tr>
-                            <td id="tage"></td>
                         </thead> 
-                        
+                        <tbody id="tage">
+
+                        </tbody>
+
                     </table>
                     <p>
                         <li>

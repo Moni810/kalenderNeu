@@ -4,6 +4,12 @@
     font-family: WindSong, cursive;
 }
 
+#überschrift2 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
 body {
     background-color: rgb(255, 219, 224);
     margin-left: 30px;
@@ -27,12 +33,11 @@ tbody {
 
 #buttonClick {
     display: flex;
-    gap: 76px;
     font-family: windsong ,cursive;
     font-size: xx-large;
     color: rgb(189, 135, 157);    
     background-color: rgba(243, 166, 183, 0.397);
-    width: fit-content; 
+    width: 398px; 
 }
 
 #neuerMonat {
@@ -87,11 +92,11 @@ tr {
     background-color: rgba(189, 135, 157, 0.164);
 }
 
-#sa {
+.sa {
     color: rgba(0, 162, 255, 0.342);
 }
 
-#so {
+.so {
     color: rgba(255, 0, 0, 0.432);
 }
 
@@ -104,11 +109,15 @@ li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#heute {
+.heute {
     color: rgb(245, 51, 187);
     background-color: rgba(253, 94, 169, 0.521);
 }
 
+.selected {
+    color: rgba(248, 113, 208, 0.788);
+    background-color: rgba(247, 168, 205, 0.521);
+}
 
 footer {
     font-size: xx-small;

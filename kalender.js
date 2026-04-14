@@ -48,6 +48,7 @@ function drawErsetzungen() {
     let monatString = alleMonate[displayedMonth.getMonth()];
     let datumString = `${aktuellerTag}.${aktuellerMonat + 1}.${aktuellesJahr}`;
     //let datumString2 = aktuellerTag + '.' + aktuellerMonat + '.' + aktuellesJahr;
+
     // Überschrift aktualisieren
     document.getElementById('überschrift').innerText = datumString;
     document.getElementById("überschrift2").innerText = monatString;
@@ -70,10 +71,12 @@ function drawCalendar() {
     // 5 -> 4
     // 6 -> 5
     // 0 -> 6
+
     // let tageVorherBeginnen = startWochentag - 1;
     // if (startWochentag == 0) {
     //     tageVorherBeginnen = 6;
     // }
+
     let tageVorherBeginnen = startWochentag == 0 ? 6 : startWochentag - 1;
     console.log(tageVorherBeginnen);
     let startTag = new Date(aktuellesJahr, aktuellerMonat, 1 - tageVorherBeginnen);
@@ -121,7 +124,6 @@ function drawCalendar() {
     //     monatString = 'November';
     // } else {
     //     monatString = 'Dezember';
-
     // }
 
     // Kalendertage bauen
